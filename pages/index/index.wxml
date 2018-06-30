@@ -1,0 +1,91 @@
+<!--index.wxml-->
+<view class="wrap">
+    <view class="container">
+        <view class="weather">
+            <view class="weather-num">
+                <view class="num-top">
+                    <i>20°</i>杭州
+                </view>
+                <view class="num-bottom">
+                    30/26°C
+                </view>
+            </view>
+            <view class="weather-det">
+                <view class="det-top">
+                    <view><text style="font-size: 80rpx;color: transparent;">1</text><image src="../../images/weather.png"></image></view>
+                </view>
+                <view class="det-bottom">
+                    雷阵雨 南风3级
+                </view>
+            </view>
+        </view>
+        <view class="weather-pre">
+            <view class="pre-content">
+                <view class="pre-left">
+                    <view class="left-top">
+                        明天 <text style="font-size: 32rpx;color: transparent;">1</text>
+                    </view>
+                    <view class="left-bottom">
+                        29/28°C
+                    </view>
+                </view>
+                <view class="pre-right">
+                    <view class="right-top">
+                        <image src="../../images/cloud.png"></image>
+                    </view>
+                    <view class="right-bottom">
+                        多云
+                    </view>
+                </view>
+            </view>
+            <view class="pre-content">
+                <view class="pre-left">
+                    <view class="left-top">
+                        后天 <text style="font-size: 32rpx;color: transparent;">1</text>
+                    </view>
+                    <view class="left-bottom">
+                        29/28°C
+                    </view>
+                </view>
+                <view class="pre-right">
+                    <view class="right-top">
+                        <image src="../../images/cloud.png"></image>
+                    </view>
+                    <view class="right-bottom">
+                        多云
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="nav">
+        <view>
+            <navigator url="/pages/management/jobManagement">
+                <view>
+                    <image src="../../images/info.png"></image>
+                </view>
+                <view>消息通知</view>
+            </navigator>
+            <navigator>
+                <view>
+                    <image src="../../images/check.png"></image>
+                </view>
+                <view>绩效考核</view>
+            </navigator>
+        </view>
+        <view>
+            <navigator>
+                <view>
+                    <image src="../../images/send.png"></image>
+                </view>
+                <view>作业发布</view>
+            </navigator>
+            <navigator>
+                <view>
+                    <image src="../../images/count.png"></image>
+                </view>
+                <view>统计分析</view>
+            </navigator>
+        </view>
+    </view>
+</view>

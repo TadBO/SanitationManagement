@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/personCenter/personCenter",
+    "pages/management/jobManagement",
+    "pages/mailList/mailList"
+  ],
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_active.png"
+      },
+      {
+        "pagePath": "pages/mailList/mailList",
+        "text": "通讯录",
+        "iconPath": "images/link.png",
+        "selectedIconPath": "images/link_active.png"
+      },
+      {
+        "pagePath": "pages/management/jobManagement",
+        "text": "作业管理",
+        "iconPath": "images/work.png",
+        "selectedIconPath": "images/work_active.png"
+      },
+      {
+        "pagePath": "pages/personCenter/personCenter",
+        "text": "个人中心",
+        "iconPath": "images/person.png",
+        "selectedIconPath": "images/person_active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#f5f5f5",
+    "navigationBarBackgroundColor": "#30e7bc",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "#ffffff"
+  }
+}

@@ -1,0 +1,107 @@
+/**index.wxss**/
+.container {
+  background: linear-gradient(to bottom, #30e7bc, #1c989d);
+  color: #fff;
+  padding: 20rpx;
+}
+.weather {
+  display: flex;
+  flex-direction: row;
+}
+
+.weather .weather-num, .weather .weather-det {
+  flex: 1;
+}
+
+.weather-num .num-top i {
+  font-size: 80rpx;
+  display: inline;
+}
+
+.weather-num .num-bottom, .weather-det  .det-bottom {
+  margin-top: -24rpx;
+}
+
+.weather-det {
+  text-align: right;
+}
+
+.weather-det .det-top image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 48rpx;
+  vertical-align: revert;
+}
+
+.weather-pre {
+  display: flex;
+  flex-direction: row;
+  padding: 10rpx;
+  margin-top: 20rpx;
+  border: 1px solid #ddd;
+  border-radius: 4rpx;
+}
+
+.weather-pre .pre-content{
+   flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.weather-pre .pre-content:nth-child(1) {
+  padding-right: 20rpx;
+  border-right: 1px solid #ddd;
+}
+
+.weather-pre .pre-content:nth-child(2) {
+  padding-left: 20rpx;
+}
+
+.pre-content .pre-left, .pre-content .pre-right {
+  flex: 1;
+}
+
+.pre-content .pre-left {
+  text-align: left;
+}
+
+.pre-content .pre-right {
+  text-align: right;
+}
+
+.weather-pre image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 6rpx;
+}
+
+.nav {
+  margin-top: 20rpx;
+}
+
+.nav>view {
+  display: flex;
+  text-align: center;
+  margin: 10rpx;
+}
+
+.nav>view navigator {
+  flex: 1;
+  background: #fff;
+  padding: 20rpx;
+}
+
+.nav>view navigator:nth-child(1) {
+  margin-right: 10rpx;
+}
+
+.nav>view navigator:nth-child(1) {
+  margin-left: 10rpx;
+}
+
+
+.nav navigator image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
